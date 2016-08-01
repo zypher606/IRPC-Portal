@@ -1,0 +1,80 @@
+#icon
+{
+	margin-left: 4%;
+    
+}
+#icon a
+{
+	font-size: 30px;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: #fff;
+}
+#login_signup>li
+
+{
+	font-size: 20px;
+}
+
+#mynav
+{
+	background: #d75813;
+	border: none;
+	border-radius: 0;
+	height:53px;
+}
+
+
+#tabLinks li a
+{
+	font-size: 18px;
+}
+
+#tabLinks>li>a
+{
+
+}
+#addpostdiv>a>img
+{
+	position: fixed;
+	bottom: 5%;
+	height: 60px;
+	right: 3%;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+    
+}
+#addPost img:hover
+{
+	height: 65px;
+    
+}
+/*
+.active
+{
+	height: 53px;
+	background: #fff;
+		color: #258AD6;
+
+}
+*/
+#tabLinks>.active>li>a
+{
+	color: red;
+}
+.active a
+{
+	background: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+/*	color: #f7941d;*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+	background: #fff;
+	color: #258AD6;
+}

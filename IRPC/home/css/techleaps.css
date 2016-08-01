@@ -1,0 +1,41 @@
+
+
+
+.v_menu {
+    
+    width: 20%;
+    background-color: white;
+    margin-right: 5%;
+    float: right;
+    border: 1px solid lightgray;
+    box-shadow:3px 3px 20px 1px black;
+    
+    
+}
+
+.tab-content {
+    
+    position: relative;
+    width: 65%;
+    margin-left: 5%;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 2%;
+    box-shadow:3px 3px 20px 1px black;	
+    
+    
+    
+}
+
+h2 {
+    
+    color: black;
+    
+}
+
+#philo , #str ,#dates , #tech , #faq , #problems{
+    
+    text-align: justify;   
+    color:gray;
+/*    color: #258AD6;*/
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IRPC Home</title>
+    <meta name="author" content="Shashank Bhoge">
+    <meta name="description" 
+      content="Industry Relations and Project Council, is the newly formed student executive council at IIT Gandhinagar. The council deals with the student projects, their documentation and proress. The council also aims to establish industry liasions for the institute in order to fetch more projects. In the recent times, to fulfill its aim, the council organised Tech Leaps and is looking forward to organise Mechanical Engineering Industry Outreach Program.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--<img src="img/new.jpg" id='mycover'/>-->
+<nav class="navbar navbar-default" id="mynav">
+  <div class="container-fluid">
+    <div class="navbar-header" id="icon">
+      <a class="pull-left" href="index.html"><img src="img/logo.png" alt="IRPC" height="70px"></a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right" id="login_signup">
+      <li class="active"><a data-toggle="tab" href="#signup_form" style="color:#fff;"> Sign Up</a></li>
+      <li><a data-toggle="tab" href="#login_form" style="color:#fff;"> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  
+	<div class="row">
+		<div class="col-md-6" id="headertext">
+			<h1>About IRPC</h1><hr>
+			<h4>Industry Relations and Project Council, is the newly formed student executive council at IIT Gandhinagar. The council deals with the student projects, their documentation and proress. The council also aims to establish industry liasions for the institute in order to fetch more projects. In the recent times, to fulfill its aim, the council organised Tech Leaps and is looking forward to organise Mechanical Engineering Industry Outreach Program.</h4>
+			<br><br>
+			<div>
+			<a href="#" id="toblog">Ranchos Blog</a><br><br><br><br><br><br>
+			</div>
+			
+		</div>
+		<div class="col-md-6 tab-content" id="myforms">
+			<div class="tab-pane fade in active" id="signup_form">
+			<form method="post" action="register.php" accesskey="submit">
+				<br><span>Register</span>
+				<input class="myinput" type="text" name="first_name" placeholder='First Name'/><br>
+				<input class="myinput" type="text" name="last_name" placeholder='Last Name'/><br>
+				<input class="myinput" type="email" name="email" placeholder='Email-id'/><br>
+				<select class="myinput" name="category">
+					<option selected class="myoption">Choose a category</option>
+					<option class="myoption" name="faculty">faculty</option>
+					<option class="myoption" name="student">student</option>
+					<option class="myoption" name="staff">staff</option>
+				</select>
+				<input class="myinput" type="text" name="pass" placeholder='Password'/><br>
+				<button type="submit" class="myinput" id="sub_but">Register now</button>
+				<br><br><br>
+			
+			</form>
+			
+			</div>
+			
+			<div class="tab-pane fade" id="login_form">
+			<form method="post" action="login.php" accesskey="submit">
+				<br><span>Login</span>
+				
+                <input class="myinput" type="email" name="email" placeholder='Email-id' required/><br>
+				<input class="myinput" type="password" name="pass" placeholder='Password' required/><br>
+				
+				
+				<button type="submit" class="myinput" id="sub_but">Login</button>
+				<br><br><br>
+			
+			</form>
+			
+		  </div>
+		</div>
+		
+		
+		
+ 
+	</div>
+	
+</div>
+
+</body>
+</html>
